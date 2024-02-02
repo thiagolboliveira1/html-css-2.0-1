@@ -30,7 +30,7 @@
 }
 
 * {
-    margin: 0px;
+    margin: 0px;  /* "*" faz com que todas          as margens colem fiquem juntas*/
     padding: 0px;
 }
 
@@ -41,6 +41,7 @@ body{
 
 header {
     background-color: var(--cor4);
+
 }
 
 header > h1 {
@@ -71,5 +72,6 @@ main h2 {
 
 footer {
     background-color: var(--cor5);
-    color:white
+    color:white;
+
 }
