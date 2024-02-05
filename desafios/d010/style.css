@@ -19,7 +19,7 @@
 :root {
     --cor0: #c5ebd6; 
     --cor1: #c5ebd6;
-    --cor2: #3ddc84;
+    --cor2: #4bff9c;
     --cor3: #2fa866;        
     --cor4: #1d673e;
     --cor5: #123924;
@@ -70,8 +70,31 @@ main h2 {
     font-family: var(--fonte-destaque);
 }
 
+aside {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside > ul {
+    list-style-position: ;
+}
+
 footer {
     background-color: var(--cor5);
     color:white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
 
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color:var(--cor1);
 }
